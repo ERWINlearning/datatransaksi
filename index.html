@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>SISTEM INFORMASI TRANSAKSI</h1>
+    </div>
+    <div class="sidebar">
+        <div class="top">
+        </div>  
+        <ul>
+            <li><a class="#" href="http://127.0.0.1:3000/data-barang/index.html"><i class="fa fa-home"></i> DATA BARANG</a></li>
+            <li><a class="#" href="http://127.0.0.1:3000/data-transaksi/index.html"><i class="fa fa-shopping-basket"></i> DATA TRANSAKSI</a></li>
+            <li><a class="#" href="http://127.0.0.1:3000/data-pelanggan/index.html"><i class="fa fa-shopping-bag"></i> DATA PELANGGAN</a></li>
+        </ul>
+    </div>
+    <div class="container"> 
+        <form id="data" action="" method="post" name="data">
+        <h3>DATA TRANSAKSI</h3>
+        <fieldset>
+            <P>NO FAKTUR</P>
+        <input type="text" id="nofaktur" name="nofaktur">
+        </fieldset>
+        <fieldset>
+            <P>KODE BARANG</P>
+        <input type="text" id="kodebarang" name="kodebarang">
+        </fieldset>
+        <fieldset>
+            <p>HARGA JUAL</p>
+        <input type="text" id="hargajual" name="hargajual">
+        </fieldset>
+        <fieldset>
+            <p>JUMLAH JUAL</p>
+        <input type="text" id="jumlahjual" name="jumlahjual">
+        </fieldset>
+        </fieldset>
+        <button type="button" onclick='inputdata()' class="btn btn-succes" id="tombol">SIMPAN</button>
+        </form>
+        <table id="table">
+            <thead>
+              <tr>
+                <th>no faktur</th>
+                <th>kode barang</th>
+                <th>harga</th>
+                <th>jumlah jual</th>
+                <th id="total" name="total">total</th>
+                <th id="diskon" name="diskon">diskon</th>
+              </tr>
+            <thead>
+                
+          <table/>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>
