@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>SISTEM INFORMASI BARANG</h1>
+        <h1>SISTEM INFORMASI PELANGGAN</h1>
     </div>
     <div class="sidebar">
         <div class="top">
@@ -21,30 +21,18 @@
     </div>
     <div class="container"> 
         <form id="data" action="" method="post" name="data">
-        <h3>DATA BARANG</h3>
+        <h3>DATA PELANGGAN</h3>
         <fieldset>
-            <P>KODE BARANG</P>
-        <input placeholder="kode barang" type="text" id="kodebarang" name="kodebarang">
+            <P>KODE PELANGGAN</P>
+        <input placeholder="kode barang" type="text" id="kodepelanggan" name="kodepelanggan">
         </fieldset>
         <fieldset>
-            <P>NAMA BARANG</P>
-        <input placeholder="nama barang" type="text" id="namabarang" name="namabarang">
+            <P>NAMA PELANGGAN</P>
+        <input placeholder="nama barang" type="text" id="namapelanggan" name="namapelanggan">
         </fieldset>
         <fieldset>
-            <p>HARGA BARANG</p>
-        <input placeholder="harga barang" type="text" id="hargabarang" name="hargabarang">
-        </fieldset>
-        <fieldset>
-            <P>SATUAN</P>
-            <select name="satuan" id="satuan" name="satuan">
-               <option>unit
-                <option>kardus
-                    <option>kotak
-                        
-                    </option>
-                </option>
-               </option>
-            </select>
+            <p>NO HANDPHONE</p>
+        <input placeholder="harga barang" type="text" id="nohp" name="nohp">
         </fieldset>
         </fieldset>
         <button type="button" onclick='inputdata()' class="btn btn-succes" id="tombol">SIMPAN</button>
@@ -52,18 +40,11 @@
         <table id="table">
             <thead>
               <tr>
-                <th>Kode Barang</th>
-                <th>Nama Barang</th>
-                <th>Harga Barang</th>
-                <th>Satuan</th>
+                <th>Kode pelanggan</th>
+                <th>Nama pelanggan</th>
+                <th>no hp</th>
               </tr>
             <thead>
-                <tr>
-                    <td>B01</td>
-                    <td>sabun</td>
-                    <td>500</td>
-                    <td>1</td>
-                </tr>
           <table/>
         </div>
         <script src="main.js"></script>
